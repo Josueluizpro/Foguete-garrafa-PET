@@ -122,7 +122,7 @@ footer .perfil-footer {
 /* Container dos vídeos */
 .video-container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fit3, minmax(320pix, 1fr));
   gap: 30px;
   justify-items: center;
 }
@@ -156,6 +156,7 @@ footer .perfil-footer {
   font-size: 15px;
   color: #003366;
 }
+
 
 
 
